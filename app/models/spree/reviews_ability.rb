@@ -10,10 +10,6 @@ class Spree::ReviewsAbility
       review_ability_class.allow_anonymous_reviews? || !user.email.blank?
     end
   end
-
-  if user.respond_to?(:has_spree_role?) && user.has_spree_role?('admin')
-    can :manage, Spree::ReviewSetting
-  end
   
   def self.allow_anonymous_reviews?
     !Spree::Reviews::Config[:require_login]
