@@ -48,7 +48,7 @@ ru:
         review_management: Управление отзывами
     review_successfully_submitted: Ваш отзыв был успешно отправлен
     spree_reviews:
-      feedback_rating: Райтинг отзывов
+      feedback_rating: Рейтинг отзывов
       include_unapproved: Показывать неодобренные отзывы на странице товара
       manage_review_settings: Управление отображением отзывов
       preview_size: Количество отзывов на странице товара
